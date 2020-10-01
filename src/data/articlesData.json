@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Chomutov ve vesmíru",
+    "path": "/articles/chomutov-ve-vesmiru",
+    "previewText": "Ve čtvrtek 20.února 2020 od 16:30 hod. se v Obřadní síně MÚ v Chomutově konala malá slavnostní akci pro 14 studentů našeho města, jejich rodiče, sourozence a další hosty. Tito studenti se před 5 lety pod vedením našeho kroužku astronomie zapojili do mezinárodní soutěže vyhlášené Evropskou vesmírnou agenturou (ESA)...",
+    "picture": "https://www.astro21.cz/img/picture/1910/2019-12-18-start--3--cheops.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Projekt Hvězdárna F. J. Gerstnera",
+    "path": "/articles/projekt-hvezdarna-f-j-gerstnera",
+    "previewText": "Ve středu 24.dubna 2019  v 16:30 hod. jsme v rámci participativního rozpočtu  města Chomutova v řádném termínu odevzdali náš projekt - Hvězdárna F.J.Gerstnera v Chomutově. Ve čtvrtek 23.května 2019 jsme v SKKS (knihovně) prezentovali náš projekt malé veřejné hvězdárny, která by mohla být vybudována z participativního rozpočtu městě Chomutova. Realizací projektu by vznikla malá veřejná hvězdárna přístupná široké veřejnosti za účelem popularizace nejen astronomie, ale i dalších technických a přírodovědných oborů...",
+    "picture": "https://www.astro21.cz/img/picture/1974/2019-3-15-model--2-.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Zatmění slunce 20. března 2015",
+    "path": "/articles/zatmeni-slunce-20-brezna-2015",
+    "previewText": "Zatmění Slunce je jeden z nejkrásnějších přírodních úkazů, který člověk může za život spatřit. Tato příležitost se nám po několika letech opět naskytla v pátek 20. března 2015. Tentokrát jsme připravili první pozorování částečného zatmění Slunce, na které jsme pozvali i veřejnost...",
+    "picture": "https://www.astro21.cz/img/picture/6/2003-5-31-chomutov--jl.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Evropská noc vědců 2009",
+    "path": "/articles/evropska-noc-vedcu-2009",
+    "previewText": "Poslední pátek v září (25.9.2009) probíhala na řadě míst Evropské unie zajímavá akce nazvaná - Evropská noc vědců. Účelem této pravidelné akce je ukázat, že vědci jsou lidé jako my. Prožívají své každodenní radosti i starosti. Je to ale také příležitost seznámit se s výsledky jejich každodenní práce. Náš národ má celou řadu průkopníků vědy a techniky, kteří se nesmazatelně zapsali do dějin nejen české, ale i světové vědy. Projekt Evropská noc vědců je příležitostí připomenout si úspěchy minulých i těch současných vědců...",
+    "picture": "https://www.astro21.cz/img/picture/49/2009-9-25--19-.jpg"
+  }
+]
