@@ -27,7 +27,7 @@ class App extends React.Component {
             <Route path="/chronicle" component={Chronicle} />
             <Route path="/club" component={Club} />
             <Route path="/observatory" component={Observatory} />
-            <Route exact path="/articles" exact component={Articles} />
+            <Route exact path="/articles" component={Articles} />
             <Route path="/gallery" component={Gallery} />
           </Switch>
         </div>

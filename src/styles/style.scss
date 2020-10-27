@@ -15,11 +15,10 @@ ul a {
   @include flexCenter();
   font-size: 30px;
   font-weight: bold;
-  color: $navTextDark;
   a {
     text-decoration: none;
     display: block;
-    color: $navTextDark;
+    color: $navText;
     padding: 0;
   }
   a:hover {
@@ -28,7 +27,11 @@ ul a {
 }
 
 h1 {
-  color: $navTextLight;
+  color: $navText;
+}
+
+h3 {
+  color: $textLight;
 }
 
 .navigation-bar {
@@ -45,7 +48,7 @@ h1 {
   text-align: center;
   a {
     display: block;
-    color: $navTextDark;
+    color: $navText;
     padding: 0;
     flex-grow: 1;
   }
@@ -65,6 +68,7 @@ h1 {
 }
 
 .chronicle-entry-date {
+  color: $navText;
   font-weight: bold;
 }
 
@@ -74,12 +78,13 @@ h1 {
 }
 
 .chronicle-entry-description {
-  color: #424242;
+  color: $textLight;
 }
 
 .content {
   width: 70vw;
   padding: 0vw 15vw 0vw 15vw;
+  min-height: 80vh;
 }
 
 .articles-bar {
@@ -90,11 +95,11 @@ h1 {
 li.article-link {
   padding: 5px 5px 5px 5px;
   margin: 5px 0px 5px 0px;
-  color: $textColor;
-  background-color: $navTextLight;
+  color: $textDark;
+  background-color: $navText;
   &:hover {
     color: $textHoverColor;
-    background-color: $navTextDark;
+    background-color: $navTextHover;
   }
   .article-preview {
     display: flex;
@@ -121,6 +126,22 @@ li.article-link {
   }
 }
 
+.set-of-photos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  .picture {
+    width: 24%;
+    margin: 1px;
+    &:hover {
+      transform: scale(1.8);
+      overflow: hidden;
+      transition: transform 0.7s;
+    }
+  }
+}
+
 @media screen and (max-width: 800px) {
   .content {
     width: 90vw;
@@ -141,7 +162,7 @@ li.article-link {
     text-align: center;
     a {
       display: block;
-      color: $navTextDark;
+      color: $navText;
       padding: 1vh 0 1vh 0;
       flex-grow: 1;
     }
@@ -153,10 +174,10 @@ li.article-link {
   li.article-link {
     padding: 5px 5px 5px 5px;
     margin: 5px 0px 5px 0px;
-    color: $textColor;
+    color: $textDark;
     &:hover {
       color: $textHoverColor;
-      background-color: $navTextDark;
+      background-color: $navText;
     }
     .article-preview {
       @include flexCenter();
@@ -171,6 +192,22 @@ li.article-link {
       }
       .description {
         padding: 2vh 2vw 2vh 2vw;
+      }
+    }
+  }
+
+  .set-of-photos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    .picture {
+      width: 49%;
+      margin: 1px;
+      &:hover {
+        transform: scale(1.2);
+        overflow: hidden;
+        transition: transform 0.3s;
       }
     }
   }

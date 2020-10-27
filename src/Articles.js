@@ -35,7 +35,7 @@ function Articles() {
           <Switch>
             <Route
               exact path="/articles/chomutov-ve-vesmiru"
-              exact component={ChomutovVeVesmiru}
+              component={ChomutovVeVesmiru}
             />
             <Route
               path="/articles/projekt-hvezdarna-f-j-gerstnera"

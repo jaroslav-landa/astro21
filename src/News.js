@@ -6,7 +6,7 @@ function News() {
     <div className="content">
       <h1>Novinky a Aktuality</h1>
       <h2>Nadcházející akce</h2>
-      <div>tady je něco napsaný</div>
+      <div>vzorový text</div>
     </div>
   );
 }

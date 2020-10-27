@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles/style.css";
 import ChronicleEntry from "./ChronicleEntry";
 import chronicleData from "./data/chronicleData.json";
