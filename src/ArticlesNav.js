@@ -12,7 +12,7 @@ function ArticlesNav() {
         {articleLinks.map((link) => (
           <Link to={link.path} key={link.id}>
             <li className="article-link">
-              <div className="article-preview">
+              <div className="preview">
                 <img
                   className="picture"
                   alt="náhled článku"
@@ -20,7 +20,7 @@ function ArticlesNav() {
                 />
                 <div className="info">
                   <div className="title">{link.title}</div>
-                  <div className="preview-text">{link.previewText}</div>
+                  <div className="text">{link.previewText}</div>
                 </div>
               </div>
             </li>

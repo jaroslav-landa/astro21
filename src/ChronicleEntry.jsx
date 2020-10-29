@@ -4,11 +4,11 @@ import "./styles/style.css";
 function ChronicleEntry({ date, activity, description }) {
   return (
     <div className="chronicle-entry">
-      <div className="chronicle-entry-date">
+      <div className="date">
         {date}
-        <div className="chronicle-entry-activity"> {activity}</div>
+        <div className="activity"> {activity}</div>
       </div>
-      <div className="chronicle-entry-description">{description}</div>
+      <div className="description">{description}</div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import chronicleData from "./data/chronicleData.json";
 function Chronicle() {
   const entries = chronicleData;
   return (
-    <div className="chronicle content">
+    <div className="content">
       <h1>Kronika astro21</h1>
       {entries.map((entry) => (
         <div key={entry.id}>

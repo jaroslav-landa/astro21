@@ -1,28 +1,21 @@
-@import './variables';
-@import './mixins';
+@import "./variables";
+@import "./mixins";
 
-ul a {
-  text-decoration: none;
-}
-
-.App {
-  background-color: $bgColor;
-}
-
-.App-header {
-  background-color: $headerBGColor;
-  min-height: 15vh;
-  @include flexCenter();
-  font-size: 30px;
-  font-weight: bold;
-  a {
-    text-decoration: none;
-    display: block;
-    color: $navText;
-    padding: 0;
-  }
-  a:hover {
-    color: $navTextHover;
+.app {
+  @include background("../images/background.jpg");
+  .header {
+    min-height: 15vh;
+    @include flexCenter();
+    font-size: 34px;
+    font-weight: bold;
+    a {
+      text-decoration: none;
+      padding: 0;
+      color: $navText;
+      &:hover {
+        color: $navTextHover;
+      }
+    }
   }
 }
 
@@ -49,55 +42,56 @@ p {
   justify-content: space-around;
   align-items: stretch;
   font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
   background-color: $navBGColor;
   margin: 0px;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
   a {
     display: block;
     color: $navText;
     padding: 0;
     flex-grow: 1;
-  }
-  a:hover {
-    color: $navTextHover;
+    &:hover {
+      color: $navTextHover;
+    }
   }
 }
 
-.chronicle {
+.chronicle-entry {
+  padding: 15px 0px 15px 0px;
+  .date {
+    color: $navText;
+    font-weight: bold;
+  }
+  .activity {
+    color: $greenEmphasis;
+    display: inline;
+  }
+  .description {
+    color: $textLight;  
+  }
+}
+
+.content {
+  width: 70vw;
+  margin: 0vh 0vw 0vh 0vw;
+  padding: 0vh 15vw 0vh 15vw;
+  min-height: 80vh;
+  background-color: $bgColor;
   display: flex;
   flex-direction: column;
   align-items: left;
 }
 
-.chronicle-entry {
-  padding: 15px 0px 15px 0px;
-}
-
-.chronicle-entry-date {
-  color: $navText;
-  font-weight: bold;
-}
-
-.chronicle-entry-activity {
-  color: $greenEmphasis;
-  display: inline;
-}
-
-.chronicle-entry-description {
-  color: $textLight;
-}
-
-.content {
-  width: 70vw;
-  padding: 0vw 15vw 0vw 15vw;
-  min-height: 80vh;
-}
-
 .articles-bar {
   list-style: none;
   padding: 0;
+}
+
+ul a {
+  text-decoration: none;
 }
 
 li.article-link {
@@ -109,7 +103,7 @@ li.article-link {
     color: $textHoverColor;
     background-color: $navTextHover;
   }
-  .article-preview {
+  .preview {
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -126,7 +120,7 @@ li.article-link {
         padding: 2vh 2vw 2vh 2vw;
         flex-grow: 2;
       }
-      .preview-text {
+      .text {
         flex-grow: 3;
         padding: 2vh 2vw 2vh 2vw;
       }
@@ -173,9 +167,9 @@ li.article-link {
       color: $navText;
       padding: 1vh 0 1vh 0;
       flex-grow: 1;
-    }
-    a:hover {
-      color: $navTextHover;
+      &:hover {
+        color: $navTextHover;
+      }
     }
   }
 
@@ -185,9 +179,9 @@ li.article-link {
     color: $textDark;
     &:hover {
       color: $textHoverColor;
-      background-color: $navText;
+      background-color: $navTextHover;
     }
-    .article-preview {
+    .preview {
       @include flexCenter();
       flex-direction: column;
       .title {

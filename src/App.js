@@ -14,11 +14,9 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <header className="App-header">
-            <Link to="/">
-              <p>Astronomická společnost Chomutov</p>
-            </Link>
+        <div className="app">
+          <header className="header">
+            <Link to="/">Astronomická společnost Chomutov</Link>
           </header>
           <NavigationBar />
           <Switch>

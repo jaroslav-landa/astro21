@@ -3,3 +3,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin background($path) {
+  background: {
+    image: url($path);
+    repeat: repeat;
+  }
+}
