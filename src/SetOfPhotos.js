@@ -1,14 +1,11 @@
 import React from "react";
 import "./styles/style.css";
-import galleryData from "./data/gallery/2018-7-27-data.json";
 
 function openPicture(url) {
   window.open(url, "_blank");
 }
 
-function SetOfPhotos({ event, date }) {
-  const photos = galleryData;
-
+function SetOfPhotos({ event, date, photos }) {
   return (
     <div>
       <h1>{event}</h1>
