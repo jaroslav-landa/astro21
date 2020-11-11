@@ -17,6 +17,12 @@
       }
     }
   }
+  .footer {
+    min-height: 10vh;
+    color: $textLight;
+    padding: 2vh 15vw 2vh 15vw;
+    background-color: $footerBGColor;
+  }
 }
 
 h1 {
@@ -75,9 +81,8 @@ p {
 }
 
 .content {
-  width: 70vw;
   margin: 0vh 0vw 0vh 0vw;
-  padding: 0vh 15vw 0vh 15vw;
+  padding: 0vh 15vw 5vh 15vw;
   min-height: 80vh;
   background-color: $bgColor;
   display: flex;

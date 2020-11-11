@@ -20,7 +20,16 @@ class App extends React.Component {
           </header>
           <NavigationBar />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route
+              path="/"
+              exact
+              render={() => (
+                <div>
+                  <Home />
+                  <News />
+                </div>
+              )}
+            />
             <Route path="/news" component={News} />
             <Route path="/chronicle" component={Chronicle} />
             <Route path="/club" component={Club} />
@@ -28,6 +37,11 @@ class App extends React.Component {
             <Route path="/articles" component={Articles} />
             <Route path="/gallery" component={Gallery} />
           </Switch>
+
+          <footer className="footer">
+            <p>Astronomická společnost Chomutov 2020</p>
+            <p>Web by: Jaroslav Landa</p>
+          </footer>
         </div>
       </Router>
     );

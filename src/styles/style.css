@@ -28,6 +28,13 @@
   color: #ffffff;
 }
 
+.app .footer {
+  min-height: 10vh;
+  color: #b9b9b9;
+  padding: 2vh 15vw 2vh 15vw;
+  background-color: #2235475b;
+}
+
 h1 {
   color: #d1d1d1;
 }
@@ -99,9 +106,8 @@ p {
 }
 
 .content {
-  width: 70vw;
   margin: 0vh 0vw 0vh 0vw;
-  padding: 0vh 15vw 0vh 15vw;
+  padding: 0vh 15vw 5vh 15vw;
   min-height: 80vh;
   background-color: #223547e3;
   display: -webkit-box;
