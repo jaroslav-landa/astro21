@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "date": "15.8.2020",
+    "date": "16.8.2020",
     "activity": "Astronomické praktikum",
     "description": "praxe \"Na hvězdárně\""
   },
@@ -94,5 +94,53 @@
     "date": "26.10.2019",
     "activity": "Veřejné pozorování",
     "description": "objekty podzimní oblohy"
+  },
+  {
+    "id": 17,
+    "date": "10.10.2019",
+    "activity": "Přednáška Apollo 11",
+    "description": "mezinárodní projekt WSW"
+  },
+  {
+    "id": 18,
+    "date": "7.9.2019",
+    "activity": "Prezentace Slunce",
+    "description": "Den evropského dědictví (otevřeny památky)"
+  },
+  {
+    "id": 19,
+    "date": "30.8.2019",
+    "activity": "Úspěšná expedice",
+    "description": "Manětínská oblast tmavé oblohy"
+  },
+  {
+    "id": 20,
+    "date": "10.8.2019",
+    "activity": "Veřejné pozorování",
+    "description": "meteorický roj Perseidy"
+  },
+  {
+    "id": 21,
+    "date": "8.8.2019",
+    "activity": "Veřejné pozorování",
+    "description": "\"prázdninové pozorování\" objektů noční oblohy pro děti"
+  },
+  {
+    "id": 22,
+    "date": "24.7.2019",
+    "activity": "",
+    "description": "jednání na MÚ Chomutov o projektu hvězdárny F.J. Gerstnera"
+  },
+  {
+    "id": 23,
+    "date": "18.7.2019",
+    "activity": "",
+    "description": "vzpomínkový večer 50. výročí Apollo 11 v Chomutovském muzeu"
+  },
+  {
+    "id": 24,
+    "date": "16.7.2019",
+    "activity": "Veřejné pozorování",
+    "description": "částečné zatmění Měsíce"
   }
 ]

@@ -1,10 +1,10 @@
 import React from "react";
-import "./styles/style.css";
-import articlesData from "./data/articlesData.json";
+import "../styles/style.css";
+import articlesPreviewData from "../data/articlesPreviewData.json";
 import { Link } from "react-router-dom";
 
 function ArticlesNav() {
-  const articleLinks = articlesData;
+  const articleLinks = articlesPreviewData;
 
   return (
     <nav>

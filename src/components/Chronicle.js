@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/style.css";
+import "../styles/style.css";
 import ChronicleEntry from "./ChronicleEntry";
-import chronicleData from "./data/chronicleData.json";
+import chronicleData from "../data/chronicleData.json";
 
 function Chronicle() {
   const entries = chronicleData;

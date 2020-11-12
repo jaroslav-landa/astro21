@@ -1,9 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .app {
   background-image: url("../images/background.jpg");
   background-repeat: repeat;
 }
 
-.app .header {
+.app header {
   min-height: 15vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,17 +25,17 @@
   font-weight: bold;
 }
 
-.app .header a {
+.app header a {
   text-decoration: none;
   padding: 0;
   color: #d1d1d1;
 }
 
-.app .header a:hover {
+.app header a:hover {
   color: #ffffff;
 }
 
-.app .footer {
+.app footer {
   min-height: 10vh;
   color: #b9b9b9;
   padding: 2vh 15vw 2vh 15vw;

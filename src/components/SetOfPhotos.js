@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/style.css";
+import "../styles/style.css";
 
 function openPicture(url) {
   window.open(url, "_blank");

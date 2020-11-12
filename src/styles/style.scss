@@ -1,9 +1,18 @@
 @import "./variables";
 @import "./mixins";
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .app {
   @include background("../images/background.jpg");
-  .header {
+  header {
     min-height: 15vh;
     @include flexCenter();
     font-size: 34px;
@@ -17,7 +26,7 @@
       }
     }
   }
-  .footer {
+  footer {
     min-height: 10vh;
     color: $textLight;
     padding: 2vh 15vw 2vh 15vw;
