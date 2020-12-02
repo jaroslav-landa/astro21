@@ -48,6 +48,16 @@ h3 {
 
 p {
   color: $textLight;
+  
+  .ext-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: $navText;
+  &:hover {
+    color: $navTextHover;
+  }
+}
+
 }
 
 .navigation-bar {
