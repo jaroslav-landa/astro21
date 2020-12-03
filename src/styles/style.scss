@@ -3,8 +3,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,16 +48,14 @@ h3 {
 
 p {
   color: $textLight;
-  
   .ext-link {
-  text-decoration: none;
-  font-weight: bold;
-  color: $navText;
-  &:hover {
-    color: $navTextHover;
+    text-decoration: none;
+    font-weight: bold;
+    color: $navText;
+    &:hover {
+      color: $navTextHover;
+    }
   }
-}
-
 }
 
 .navigation-bar {
@@ -95,7 +93,7 @@ p {
     display: inline;
   }
   .description {
-    color: $textLight;  
+    color: $textLight;
   }
 }
 
@@ -164,6 +162,33 @@ li.article-link {
       transform: scale(1.8);
       overflow: hidden;
       transition: transform 0.7s;
+    }
+  }
+}
+
+.members-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  .member-card {
+    width: 24%;
+    margin: 1px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .photo {
+      width: 50%;
+      border-radius: 50%;
+    }
+    .name {
+      margin-top: 3%;
+      font-size: 26px;
+      color: $textLight;
+    }
+    .position {
+      color: $textLight;
     }
   }
 }

@@ -1,7 +1,10 @@
 import React from "react";
 import "../styles/style.css";
+import membersData from "../data/membersData.json";
+import MemberCard from "./MemberCard";
 
 function Home() {
+  const members = membersData;
   return (
     <div className="content">
       <h1>Úvod</h1>
@@ -20,7 +23,7 @@ function Home() {
         astronomii a přírodní vědy. S cílem zařadit naše město mezi místa
         astronomické vzdělanosti. Postavit se tak po boku Teplic, Úpice, Českých
         Budějovic, Turnova, atd. Chceme nabídnout dětem, mládeži, jejich
-        rodičům, lidem v našem městě a turistům - novou možnost využití volného
+        rodičům, lidem v našem městě a turistům novou možnost využití volného
         času.
       </p>
       <p>
@@ -34,6 +37,17 @@ function Home() {
         a významného rodáka z Chomutova – F.J.Gerstnera.
       </p>
       <h1>Členové</h1>
+      <div className="members-container">
+        {members.map((member) => (
+          <MemberCard
+            key={member.id}
+            name={member.name}
+            photo={member.photo}
+            position={member.position}
+            description={member.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }

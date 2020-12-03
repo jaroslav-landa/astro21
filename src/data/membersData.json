@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Ferenc Noha",
+    "photo": "https://logodix.com/logo/1076691.jpg",
+    "position": "předseda",
+    "description": "vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text vzorový text "
+  },
+  {
+    "id": "2",
+    "name": "Klerenc Hlava",
+    "photo": "https://logodix.com/logo/1076691.jpg",
+    "position": "člen",
+    "description": "vzorový text"
+  },
+  {
+    "id": "3",
+    "name": "Lorenc Ponožka",
+    "photo": "https://logodix.com/logo/1076691.jpg",
+    "position": "člen",
+    "description": "vzorový text"
+  }
+]
